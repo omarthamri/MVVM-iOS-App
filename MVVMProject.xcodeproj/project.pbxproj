@@ -15,6 +15,10 @@
 		765F252221D2B9A9008C0E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765F252021D2B9A9008C0E69 /* LaunchScreen.storyboard */; };
 		765F252D21D2B9A9008C0E69 /* MVVMProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F252C21D2B9A9008C0E69 /* MVVMProjectTests.swift */; };
 		765F253821D2B9A9008C0E69 /* MVVMProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F253721D2B9A9008C0E69 /* MVVMProjectUITests.swift */; };
+		765F254721D2BB86008C0E69 /* CustomItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F254521D2BB86008C0E69 /* CustomItemTableViewCell.swift */; };
+		765F254821D2BB86008C0E69 /* CustomItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 765F254621D2BB86008C0E69 /* CustomItemTableViewCell.xib */; };
+		765F254A21D2BFD2008C0E69 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F254921D2BFD2008C0E69 /* ViewModel.swift */; };
+		765F254C21D2BFED008C0E69 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F254B21D2BFED008C0E69 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		765F253321D2B9A9008C0E69 /* MVVMProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		765F253721D2B9A9008C0E69 /* MVVMProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMProjectUITests.swift; sourceTree = "<group>"; };
 		765F253921D2B9A9008C0E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765F254521D2BB86008C0E69 /* CustomItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItemTableViewCell.swift; sourceTree = "<group>"; };
+		765F254621D2BB86008C0E69 /* CustomItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomItemTableViewCell.xib; sourceTree = "<group>"; };
+		765F254921D2BFD2008C0E69 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		765F254B21D2BFED008C0E69 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				765F252021D2B9A9008C0E69 /* LaunchScreen.storyboard */,
 				765F252321D2B9A9008C0E69 /* Info.plist */,
 				765F251B21D2B9A9008C0E69 /* MVVMProject.xcdatamodeld */,
+				765F254521D2BB86008C0E69 /* CustomItemTableViewCell.swift */,
+				765F254621D2BB86008C0E69 /* CustomItemTableViewCell.xib */,
+				765F254921D2BFD2008C0E69 /* ViewModel.swift */,
+				765F254B21D2BFED008C0E69 /* Model.swift */,
 			);
 			path = MVVMProject;
 			sourceTree = "<group>";
@@ -236,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				765F252221D2B9A9008C0E69 /* LaunchScreen.storyboard in Resources */,
+				765F254821D2BB86008C0E69 /* CustomItemTableViewCell.xib in Resources */,
 				765F251F21D2B9A9008C0E69 /* Assets.xcassets in Resources */,
 				765F251A21D2B9A9008C0E69 /* Main.storyboard in Resources */,
 			);
@@ -262,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765F254A21D2BFD2008C0E69 /* ViewModel.swift in Sources */,
 				765F251D21D2B9A9008C0E69 /* MVVMProject.xcdatamodeld in Sources */,
+				765F254721D2BB86008C0E69 /* CustomItemTableViewCell.swift in Sources */,
+				765F254C21D2BFED008C0E69 /* Model.swift in Sources */,
 				765F251721D2B9A9008C0E69 /* ViewController.swift in Sources */,
 				765F251521D2B9A9008C0E69 /* AppDelegate.swift in Sources */,
 			);
